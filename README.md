@@ -1,5 +1,5 @@
 # london_brochure-
 
-This is my first website ever (it's not finished!), I was working on it in June 2017 while at 23 Code Street. 
+First webpage ever, first started as part of 23codestreet web dev fundamentals course back in summer 2017, updated on Feb 2018
 
 https://allegra9.github.io/london_brochure-/
