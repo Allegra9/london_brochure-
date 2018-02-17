@@ -248,18 +248,18 @@ h4 {
 }
 
 >>>>>>> 4a176965fbbc931b8203a6700d60fc0d45bf89d7
-.smoothies-image {
-    max-width: 100%;
-    margin: 0px 20px 10px 0px; 
-    border: 0;
-        border: 1.5px solid #ddd;
-    width: 100%;
-    border-radius: 4px;
-    padding: 5px;
-    border: 0;
-    background-color: #fff;
-/*    background-color: white; */
-}
+ .smoothies-image {
+ +    width: 100%;
+      margin: 0px 20px 10px 0px; 
+ +    border: 1.5px solid #ddd;
+      border: 0;
+ -    border: 1.5px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+ -    border: 0;
+      background-color: #fff;
+ -/*    background-color: white; */
+  }
 
 #gluten-free {
     background-color: rgb(231,211,232);
