@@ -3,6 +3,7 @@
     color: #000;
     padding: 20px;
     font-family: 'Playfair Display SC', serif;
+    font-size: 1.5em;
 }
 
 ul {
@@ -116,10 +117,6 @@ h3 {
     font-family: 'Playfair Display SC', serif;
     text-shadow: 2px 5px 12px #555;
     box-shadow: -10px -10px 10px -5px #888;
-/*    background-image: url(../images/londoneye34.jpg);
-    background-repeat: no-repeat;
-    background-size: 45%;
-    background-position: right;*/
 }
 
 .double-section {
@@ -348,26 +345,25 @@ footer p {
 
 /* smaller than 590 */
 /*320?*/
-/* iPhone 6 */
+/* iPhone 6 LANDSCAPE ? */
 @media screen and (max-width: 590px) {
-/*(max-width: 590px) */
 
     nav li a {
-    width: 100px;
+    width: 170px;
     }
 
     .dropdown-menu a {
-    width: 1000px;
+    width: 170px;
     }
 
     h1 {
-    font-size: 3.5em;
+    font-size: 5em;
     padding-top: 3%;
     letter-spacing: 10px;
     }
 
     .container {
-    height: 23%;
+    height: 30%;
 /*    border: 0;*/
     }
 
@@ -382,7 +378,73 @@ footer p {
 
 }    
 
+/* smaller than 320 ? */
+/* iPhone 6 PORTRAIT ?*/
+@media screen and (max-width: 400px) {
 
+    .navbar-brand {
+    padding: 10px 20px;
+    margin-top: 5px;
+    }
+
+    .navbar {
+    margin: 0 -20px;
+    }
+
+    nav li a {
+    width: 95px;
+    margin-bottom: 0;
+    }
+
+    .dropdown-menu a {
+    width: 95px;
+    }
+
+    h1 {
+    font-size: 3.5em;
+    padding-top: 10%;
+    letter-spacing: 10px;
+    }
+
+    .container {
+    height: 24%;
+/*    border: 0;*/
+    }
+
+    #visiting {
+    margin: 10px 0;
+    }
+
+    #restaurants {
+    margin: 0;
+    margin-top: 10px;
+    padding: 4%;
+    border: 0.5px #000 solid;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 2px 5px 12px #888;
+    box-shadow: -10px -10px 10px -5px #888;
+    }
+
+    .double-section {
+    margin: 10px -10px;
+    }
+
+    #vegan {
+    margin: 20px 0;
+    }
+
+    #gluten-free {
+    margin: 10px 0;
+    }
+
+    #paleo {
+    margin: 20px 0;
+    }
+
+
+} 
 
 
     
