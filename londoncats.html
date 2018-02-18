@@ -21,38 +21,44 @@
 </head>
 
 <body>
-    <header>
-        
-     <!--    <nav>
-        <form>
-            <input id="search" name="search box" type="text" placeholder="Search"/>
-        </form>
-        <ul>
-            <li>
-                <a href="index.html#visiting_first">
-                    Visiting First Time
-                </a>
 
-            </li>
-            <li>
-                <a href="londoncats.html">
-                    London Cats
-                </a>
-            </li>
-                    
-            <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Places to Eat</a>
-    <div class="dropdown-content">
-      <a href="index.html#vegan">Vegan</a>
-      <a href="index.html#gluten_free">Gluten Free</a>
-      <a href="index.html#paleo">Paleo</a>
+<nav class="navbar navbar-fixed-top">
+
+    <div class="container-fluid">
+            <div class="navbar-header text-center">
+                <a class="navbar-brand" href="#">MY LONDON GUIDE</a>
+            </div>
+
+      <ul class="three-nav-links d-flex flex-row justify-content-left col-xs-12">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#visiting">PLACES</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="londoncats.html">CATS</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="index.html#restaurants">RESTAURANTS
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="index.html#vegan">Vegan</a></li>
+                  <li class="nav-item"><a class="nav-link" href="index.html#gluten-free">Gluten Free</a></li>
+                  <li class="nav-item"><a class="nav-link" href="index.html#paleo">Paleo</a></li>
+            </ul>
+        </li>
+      </ul> 
+
+<!--     <form>
+        <input id="search" name="search box" type="text" placeholder="Search"/>
+    </form>  -->
+
+      <!-- GLYPHICONS NOT WORKING -->
+<!--     <ul class="d-flex flex-row justify-content-end ">
+      <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Login</a></li>
+    </ul> -->
+
     </div>
-            </li>
-        
-        </ul>
-    </nav> -->
-    
-    </header>
+</nav>
     
 
     <main>
@@ -109,38 +115,25 @@
     </script-->
 <!--Need to make it as a comment when editing...-->
 
-    
-      <footer>
-        
-        <ul class="bottom_list">
-        
-            <li>
-                <a href="#about_us">About us</a>
-            </li>
-            <li>
-                <a href="#contact_us">Contact us</a>
-            </li>
-            <li>
-                <a href="#terms">Terms & conditions</a>
-            </li>
-        </ul>
-        
-        <a href="#facebook" class="fa fa-facebook"></a>
-        <a href="#twitter" class="fa fa-twitter"></a>
-        <a href="#instagram" class="fa fa-instagram"></a>
-        <a href="#snapchat" class="fa fa-snapchat"></a>
-        <a href="#youtube" class="fa fa-youtube"></a>
-        
-         <p>Coded by Allegra</p>
-        
-    </footer>
+<footer>
+    <div class="social-icons d-flex flex-row justify-content-center col-xs-12">
 
+         <li><a href="https://www.freecodecamp.org/allegra9" target="_blank" title="FreeCodeCamp"><i class="fa fa-free-code-camp"></i></a></li>
 
+         <li><a href="https://github.com/Allegra9" target="_blank" title="GitHub" class="social-icon">
+          <i class="fa fa-github"></i></a></li>
+
+         <li><a href="https://codepen.io/aukseallegra" target="_blank" title="CodePen"><i class="fa fa-codepen" aria-hidden="true"></i></a></li> 
+        
+        <li><a href="https://www.instagram.com/houseofcold/" title="Instagram" class="social-icon"> <i class="fa fa-instagram"></i></a></li> 
+    </div>
+         <p class="text-center">Coded by Allegra</p>
+</footer>   
 
 <!--SCRIPT LINKS END OF BODY-->    
       
 <!--4.jQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!--5.this one for TETHER.IO-->
 <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
@@ -150,15 +143,6 @@
     
 <!--7.link to JS-->
 <!-- <script src="scripts.js"></script> -->
-
-
-<!--JavaScript is best when external, if not, then at the end of BODY-->    
-    <!--script>
-        alert("This page contains sentitive information to other cats");
-    </script-->
-<!--Need to make it as a comment when editing...-->
-
-
+    
 </body>
-
 </html> 

@@ -107,7 +107,7 @@ h3 {
     background-color: #fff;
 }
 
-.restaurants-heading {
+#restaurants {
     margin: 4%;
     padding: 4%;
     border: 0.5px #000 solid;
@@ -348,7 +348,7 @@ footer p {
 @media screen and (max-width: 590px) {
 
     nav li a {
-    width: 170px;
+    width: 110px;
     }
 
     .dropdown-menu a {
@@ -356,13 +356,18 @@ footer p {
     }
 
     h1 {
-    font-size: 6em;
+    font-size: 4em;
     padding-top: 15%;
     letter-spacing: 10px;
     }
 
     .container {
-    height: 40%;
+    height: 30%;
+    border: 0;
+    }
+
+    .bigben {
+    width: 100%;
     }
 
 }    
