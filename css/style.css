@@ -132,13 +132,13 @@ h3 {
 
 .asparagus_plate {
     width: 100%;
-    margin: 10px;
+    margin: 5px;
     border-radius: 4px;
 /*    border: solid;*/
 }
 
 .angel-image {
-    margin: 10px;
+    margin: 5px;
     border: 1.5px solid #ddd;
     width: 100%;
     border-radius: 4px;
@@ -155,7 +155,7 @@ h4 {
 #vegan {
     border: 0.5px gray solid;
     background-color: aliceblue;
-    margin: 10px 0 10px 0;
+    margin: 5px 0 -20px 0;
     padding: 20px;
     text-align: justify;
     border-radius: 4px;
@@ -174,11 +174,12 @@ h4 {
 
 #gluten-free {
     background-color: rgb(231,211,232);
-    margin: 20px;
+    margin: 0 20px;
     padding: 20px;
     text-align: justify;
     border-radius: 4px;
     column-count: 2;
+/*    border: solid;*/
 }
 
 .gluten-free-image {
@@ -221,6 +222,8 @@ h4 {
     margin: 1%;
     display: inline;
     height: 50px;
+    transform: scale(1.4);
+/*this scales them all together*/
 }
 
 .social-icons a {
@@ -232,7 +235,7 @@ h4 {
     padding: 10px 14px;
     background-color: #2a5b3a;
     border-radius: 20%;
-    transform: scale(1.4);
+/*    transform: scale(1.4);*/
     margin: 0 10px 10px 10px;
 }
 .fa-free-code-camp:hover {
@@ -243,7 +246,7 @@ h4 {
     padding: 10px 17px;
     background-color: #4a2bad;
     border-radius: 20%;
-    transform: scale(1.4);
+/*    transform: scale(1.4);*/
     margin: 0 10px 10px 10px;
 }
 .fa-github:hover {
@@ -254,7 +257,7 @@ h4 {
     padding: 10px 16px;
     background-color: #18b6ba;
     border-radius: 20%;
-    transform: scale(1.4);
+/*    transform: scale(1.4);*/
     margin: 0 10px 10px 10px;
 }
 .fa-codepen:hover {
@@ -265,7 +268,7 @@ h4 {
     padding: 10px 17px;
     background-color: #b323db;
     border-radius: 20%;
-    transform: scale(1.4);
+/*    transform: scale(1.4);*/
     margin: 0 10px 10px 10px;
 }
 .fa-instagram:hover {
@@ -344,30 +347,37 @@ footer p {
 }
 
 /* smaller than 590 */
+/*320?*/
 /* iPhone 6 */
 @media screen and (max-width: 590px) {
+/*(max-width: 590px) */
 
     nav li a {
-    width: 90px;
+    width: 100px;
     }
 
     .dropdown-menu a {
-    width: 170px;
+    width: 1000px;
     }
 
     h1 {
-    font-size: 3.2em;
-    padding-top: 15%;
+    font-size: 3.5em;
+    padding-top: 3%;
     letter-spacing: 10px;
     }
 
     .container {
-    height: 30%;
-    border: 0;
+    height: 23%;
+/*    border: 0;*/
     }
 
     .bigben {
     width: 100%;
+    }
+
+    .social-icons li {
+    transform: scale(1.2);
+    /*this scales them all together*/
     }
 
 }    
